@@ -1,5 +1,5 @@
 import { useState } from 'react'
-import Content from './TimerFunction'
+import Content from './CleanupFunction'
 
 
 function App() {

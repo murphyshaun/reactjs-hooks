@@ -39,6 +39,7 @@
 ```
 - callback luôn được gọi sau khi component mounted
 - cleanup function luôn được gọi trước khi component unmounted
-    - dùng cho trường hợp trong component có hàm của window cần clean tránh rò rỉ bộ nhớ
-- cleanup function luôn được gọi trước khi callback được gọi (trừ lần mounted)
+    - dùng cho trường hợp trong useEffect có hàm của window cần clean tránh rò rỉ bộ nhớ
+- cleanup function luôn được gọi trước khi callback được gọi (trừ lần mounted): 
+    - nghĩa là trước khi chạy hàm callback lần thứ n cleanup sẽ chạy để dọn dẹp callback chạy lần thứ n - 1
 ```
