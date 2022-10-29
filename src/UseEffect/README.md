@@ -22,6 +22,7 @@
 # Trường hợp sử dụng
 
 `useEffect(callback, [deps])`
+
 ```
 - callback luôn được gọi sau khi component mounted
 
