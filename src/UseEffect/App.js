@@ -1,5 +1,5 @@
 import { useState } from 'react'
-import Content from './ContentCase3'
+import Content from './ResizeEvent'
 
 
 function App() {

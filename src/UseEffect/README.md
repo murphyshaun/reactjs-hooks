@@ -25,6 +25,7 @@
 
 ```
 - callback luôn được gọi sau khi component mounted
+- cleanup function luôn được gọi trước khi component unmounted
 
 1. useEffect(callback) (ít dùng)
     - gọi gọi callback mỗi khi component `re-render`
