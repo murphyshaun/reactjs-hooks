@@ -28,7 +28,7 @@ function App() {
   }
 
   return (
-    <div className="App" style={{padding: 20}}>
+    <div style={{padding: 20}}>
       <h1>{counter}</h1>
       <button onClick={handleIncrease}>Increase</button>
     </div>
