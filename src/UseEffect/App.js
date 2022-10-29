@@ -1,5 +1,5 @@
 import { useState } from 'react'
-import Content from './ResizeEvent'
+import Content from './TimerFunction'
 
 
 function App() {

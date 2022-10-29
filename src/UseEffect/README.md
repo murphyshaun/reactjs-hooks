@@ -24,9 +24,6 @@
 `useEffect(callback, [deps])`
 
 ```
-- callback luôn được gọi sau khi component mounted
-- cleanup function luôn được gọi trước khi component unmounted
-
 1. useEffect(callback) (ít dùng)
     - gọi gọi callback mỗi khi component `re-render`
     - gọi gọi callback sau khi component `thêm element vào DOM`
@@ -36,4 +33,12 @@
     
 3. useEffect(callback, [dependencies])
     - chỉ gọi callback sau khi `dependencies` thay đổi
+```
+
+### Note
+```
+- callback luôn được gọi sau khi component mounted
+- cleanup function luôn được gọi trước khi component unmounted
+    - dùng cho trường hợp trong component có hàm của window cần clean tránh rò rỉ bộ nhớ
+- cleanup function luôn được gọi trước khi callback được gọi (trừ lần mounted)
 ```
