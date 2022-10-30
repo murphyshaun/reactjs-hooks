@@ -1,9 +1,9 @@
 import React from 'react';
 import ReactDOM from 'react-dom/client';
 import './index.css';
-import App from './ReactContextAndUseContext/App';
+import App from './GloablStateWithContextAnduseReducer/App';
 import reportWebVitals from './reportWebVitals';
-import { ThemeProvider } from './ReactContextAndUseContext/ThemeContext';
+import { StoreProvider } from './GloablStateWithContextAnduseReducer/store';
 //fake comments
 // function emitComment(id) {
 //   setInterval(() => {
@@ -22,9 +22,9 @@ import { ThemeProvider } from './ReactContextAndUseContext/ThemeContext';
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>
-    <ThemeProvider>
+    <StoreProvider>
       <App />
-    </ThemeProvider>
+    </StoreProvider>
   </React.StrictMode>
 );
 
