@@ -9,3 +9,4 @@
 
 ## Note
 - context thường dùng ở project nhỏ, trường hợp set lại state ko nhiều vì nó re-render toàn bộ component (provider đặt ở root)
+    - ví dụ: thay đổi theme, ngôn ngữ vì ít sử dụng
