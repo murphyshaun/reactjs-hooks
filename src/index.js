@@ -1,7 +1,7 @@
 import React from 'react';
 import ReactDOM from 'react-dom/client';
 import './index.css';
-import App from './GloablStateWithContextAnduseReducer/App';
+import App from './UseImperativeHandle/App';
 import reportWebVitals from './reportWebVitals';
 import { StoreProvider } from './GloablStateWithContextAnduseReducer/store';
 //fake comments
@@ -22,9 +22,9 @@ import { StoreProvider } from './GloablStateWithContextAnduseReducer/store';
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>
-    <StoreProvider>
+    {/* <StoreProvider> */}
       <App />
-    </StoreProvider>
+    {/* </StoreProvider> */}
   </React.StrictMode>
 );
 
