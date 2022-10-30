@@ -1,5 +1,5 @@
 import { useState } from 'react'
-import Content from './CleanupFunction'
+import Content from './FakeChatApp'
 
 
 function App() {
