@@ -1,7 +1,7 @@
 import React from 'react';
 import ReactDOM from 'react-dom/client';
 import './index.css';
-import App from './UseCallback/App';
+import App from './UseMemoHook/App';
 import reportWebVitals from './reportWebVitals';
 
 //fake comments
